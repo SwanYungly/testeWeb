@@ -1,0 +1,40 @@
+/*Seletor de elementos*/
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    
+}
+/* Seletor de classe */
+.container{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    
+}
+
+.menu{
+    background-color: lightcyan;
+    padding: 2rem;
+    margin-right: 1rem;
+    
+    
+        
+}
+.item-menu{
+    padding: 0.6rem;
+    margin: 0.7rem 0rem 0.7rem 0rem;
+    
+    }
+.conteudo{
+    padding: 2rem;
+    width: 70%;
+}
+
+.item-menu:hover{
+     background-color: blueviolet;
+     color: red;
+     
+     
+    
+}
